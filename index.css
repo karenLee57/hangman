@@ -1,0 +1,146 @@
+@font-face {
+	font-family: arcade;
+	src: url('ARCADEPI.TTF');
+}
+
+@font-face {
+	font-family: retro;
+	src: url('Retro Computer_DEMO.ttf');
+}
+
+body {
+	background: #665151;
+	text-align: center;
+}
+
+ h1 {
+	font-family: arcade;
+	color: #BA9494;
+	text-align: center;
+}
+.hangman {
+	padding: 30px 0;
+	background: #C39B9B;
+	width: 400px;
+	margin-top: 50px;
+	border: 2px dashed #EADFFF;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.hangman button[type=button] {
+	background: #EDD97C;
+	font-family: retro;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 7px 12px;
+	border: 2px solid #AB9C59;
+	color: #AB9C59;
+	margin-left: 10px;
+}
+
+.hangman button[type=button]:hover {
+	background: #FFEC96;
+	border: 2px solid white;
+	color: white;
+}
+
+.description {
+	margin-top: 50px;
+}
+
+.description p {
+	color: #FFCBCB;
+	font-family: retro;
+	font-size: 18px;
+	margin-top: -5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.partners {
+	margin-top: 50px;
+}
+
+.partners ul {
+	color: #FFCBCB;
+	font-family: retro;
+	font-size: 18px;
+	margin-top: -5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.partners a {
+	color: #6AB27F;
+	text-decoration: none;
+	padding: 0 8px;
+}
+
+.partners a:hover {
+	color: #CBFFD9;
+}
+
+.design {
+	margin-top: 50px;
+}
+
+.design p {
+	color: #FFCBCB;
+	font-family: retro;
+	font-size: 18px;
+	margin-top: -5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.challenges {
+	margin-top: 50px;
+}
+
+.challenges p {
+	color: #FFCBCB;
+	font-family: retro;
+	font-size: 18px;
+	margin-top: -5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.tech {
+	margin-top: 50px;
+}
+
+.tech p {
+	color: #FFCBCB;
+	font-family: retro;
+	font-size: 18px;
+	margin-top: -5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.backButton {
+	margin: auto;
+	margin-top: 30px;
+}
+
+.backButton button[type=button] {
+	background: #D94C47;
+	font-family: retro;
+	padding: 5px 5px;
+	font-size: 25px;
+	border-radius: 5px;
+	padding: 7px 12px;
+	border: 2px solid #913330;
+	color: #913330;
+	font-weight: bold;
+}
+
+.backButton button[type=button]:hover {
+	background: #FF7A61;
+	border: 2px solid white;
+	color: white;
+}

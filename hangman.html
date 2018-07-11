@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<!--specifying character encoding for the html doc-->
+	<meta charset="UTF-8">
+
+	<!--title that appears in browser tab-->
+    <title>Hangman</title>   
+
+    <!--linking hangman game stylesheet-->  
+    <link rel="stylesheet" href="hangman.css">         
+</head>
+<body>
+	<!--webpage title-->
+    <h1>hangman</h1>
+
+	<!--instructions for player-->
+    <p id="instructions">Choose a letter or click hint to get a clue. </p>
+
+    <!--all game elements bundled together-->
+	<div class="game">
+		<!--keyboard display on webpage-->
+    	<div id="keyboard"></div>  
+
+    	<!--chosen category displayed on webpage-->
+		<p id="categoryName"></p>
+
+		<!--word hidden in underscores displayed on webpage-->
+    	<div id="hiddenWord"></div>
+
+        <!--hint displayed on webpage when button is clicked-->
+        <p id="clue"></p>  
+
+    	<!--player lives-->
+    	<p id="lives"></p>
+
+        <div class="winMessage"></div>
+
+    	<!--hangman border box and area that it will be drawn on-->
+		<canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+        
+        <!--buttons-->
+        <div class="container">
+    	   <button id="hint">hint</button>
+      	   <button id="reset">replay</button>
+        </div>
+    </div>    
+
+    <!--linking the hangman JavaScript-->
+	<script src="hangman.js"></script>         
+  </body>
+</html>
